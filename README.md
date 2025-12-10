@@ -21,7 +21,7 @@ Add Audio and Marker Events – Load background audio and play/pause it on marke
 Animate and Render the Scene – Use AnimationMixer to animate the model and render continuously with MindAR.
 ## PROGRAM:
 ## index.html
-```
+```html
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +43,7 @@ Animate and Render the Scene – Use AnimationMixer to animate the model and ren
 </html>
 ```
 ## main.js
-```
+```js
 import {loadGLTF, loadAudio} from "./libs/loader.js";
 
 const THREE = window.MINDAR.IMAGE.THREE;
